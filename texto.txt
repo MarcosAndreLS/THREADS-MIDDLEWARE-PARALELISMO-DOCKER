@@ -1,0 +1,5 @@
+Olá, meu nome é Ana e eu tenho 2 gatos e 1 cachorro.
+O número da minha casa é 1234.
+Hoje é dia 08 de abril de 2025.
+Estudo Sistemas Distribuídos 3 vezes por semana.
+Senha de teste: abc123def456
