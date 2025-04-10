@@ -67,3 +67,27 @@ Siga estas etapas para executar o projeto em sua máquina local:
     ```bash
     cd THREADS-MIDDLEWARE-PARALELISMO-DOCKER
     ```
+3. **Execute os containers com Docker Compose**
+    Este comando irá criar e iniciar os containers do mestre, escravo de letras e escravo de números:
+    ```bash
+    docker-compose up --build
+    ```
+4. **Verifique se os serviços estão rodando**
+    Você deverá ver mensagens no terminal indicando que:
+    - Escravo 1 rodando na porta `8001`
+    - Escravo 2 rodando na porta `8002`
+    - Mestre ouvindo na porta `5000`
+5. **Execute o cliente manualmente**
+    O cliente não roda em um container. Para executar a aplicação cliente:
+    - Compile os arquivos:
+        ```bash
+        javac src/cliente/*.java
+        ```
+    - Rode a aplicação cliente:
+        ```bash
+        java -cp src cliente.Main
+        ```
+6. **Interaja com o sistema**
+    - Na interface gráfica do cliente, selecione um arquivo `.txt` com conteúdo numérico e textual.
+    - O cliente enviará o conteúdo para o mestre, que dividirá o processamento entre os dois escravos.
+    - O resultado (quantidade de letras e números) será exibido na interface.
