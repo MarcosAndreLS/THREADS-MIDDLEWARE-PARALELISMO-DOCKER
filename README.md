@@ -99,3 +99,13 @@ Siga estas etapas para executar o projeto em sua máquina local:
     - O resultado (quantidade de letras e números) será exibido na interface.
 
 ## Capturas de tela do projeto
+
+1. Tela inicial do projeto. Nessa tela serão mostrados os diretórios que existem no computador no usuário para que ele possa procurar pelo arquivo que deseja enviar. Após encontrar o arquivo, basta clicar em cima.
+<img align="center" src="tela-inicial.png">
+
+2. Tela que mostra o resultado de quantas letras e números existem no arquivo enviado pelo usuário. Nessa tela o usuário ainda pode escolher realizar outras ações como salvar as informações apresentadas na tela ou selecionar outro arquivo para enviar para o servidor.
+<img align="center" src="requisicao.png">
+
+3. Tela que aparece para salvar as informações retornadas pelo servidor. O usuário pode escolher o nome do arquivo e selecionar o diretório no qual ele deseja salvar esse arquivo.
+
+<img align="center" src="salvando.png">
