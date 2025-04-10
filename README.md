@@ -25,3 +25,45 @@ Desenvolver uma aplicação distribuída capaz de processar arquivos de texto co
 ### ⚙️ Escravos (Containers Docker - Notebook 2)
 - **Escravo 1:** Expõe o endpoint `/letras`, responsável por contar a quantidade de **letras** no texto
 - **Escravo 2:** Expõe o endpoint `/numeros`, responsável por contar a quantidade de **números** no texto
+
+## Pré-requisitos
+
+Antes de começar, certifique-se de que você tenha o seguinte instalado:
+
+- Java SDK: [Guia de Instalação](https://www.oracle.com/java/technologies/downloads/?er=221886#jdk24-windows)
+- Um editor de código (VS Code, IntelliJ, etc.)
+
+## Estrutura do projeto
+
+```bash
+THREADS-MIDDLEWARE-PARALELISMO-DOCKER/
+  ├── README.md
+  ├── docker-compose.yml
+  └── src/
+      ├── cliente/
+      │   ├── Main.java
+      │   └── Screen.java
+      └── servidor/
+          ├── master/
+          │   ├── Dockerfile
+          │   └── Master.java
+          ├── slaveLetters/
+          │   ├── Dockerfile
+          │   └── SlaveLetters.java
+          └── slaveNumbers/
+              ├── Dockerfile
+              └── SlaveNumbers.java
+```
+
+## Como Executar o Projeto
+
+Siga estas etapas para executar o projeto em sua máquina local:
+
+1. **Clone o repositório**
+    ```bash
+    git clone https://github.com/Tak3daaa/THREADS-MIDDLEWARE-PARALELISMO-DOCKER.git
+    ```
+2. **Navegue para dentro da pasta**
+    ```bash
+    cd THREADS-MIDDLEWARE-PARALELISMO-DOCKER
+    ```
