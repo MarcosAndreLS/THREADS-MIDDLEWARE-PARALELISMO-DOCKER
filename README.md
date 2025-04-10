@@ -85,13 +85,13 @@ Siga estas etapas para executar o projeto em sua máquina local:
 
     O cliente não roda em um container. Para executar a aplicação cliente:
     - Compile os arquivos:
-          ```bash
-          javac src/cliente/*.java
-          ```
+      ```bash
+      javac src/cliente/*.java
+      ```
     - Rode a aplicação cliente:
-          ```bash
-          java -cp src cliente.Main
-          ```
+      ```bash
+      java -cp src cliente.Main
+      ```
 6. **Interaja com o sistema**
 
     - Na interface gráfica do cliente, selecione um arquivo `.txt` com conteúdo numérico e textual.
