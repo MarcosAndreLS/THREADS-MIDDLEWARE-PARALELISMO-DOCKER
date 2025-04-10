@@ -34,7 +34,7 @@ public class Main {
             int totalLetras = 0;
             int totalNumeros = 0;
             try {
-                URL url = new URL("http://host.docker.internal:5000/processar");
+                URL url = new URL("http://localhost:5000/processar");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("POST");
                 conn.setDoOutput(true);
