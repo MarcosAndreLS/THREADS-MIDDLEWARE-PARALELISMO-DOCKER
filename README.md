@@ -97,3 +97,5 @@ Siga estas etapas para executar o projeto em sua máquina local:
     - Na interface gráfica do cliente, selecione um arquivo `.txt` com conteúdo numérico e textual.
     - O cliente enviará o conteúdo para o mestre, que dividirá o processamento entre os dois escravos.
     - O resultado (quantidade de letras e números) será exibido na interface.
+
+## Capturas de tela do projeto
